@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* banner Section*/
+section.PC{
+    display: none;
+}
+
+section.hero{
+    height: 100vh;
+}
+
+
+section.hero img{
+   width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.LTL{
+    width: 100%;
+    font-size: 2.2rem;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    color: white;
+}
+
+
+
+
+/* section 2*/
+
+section.sec2{
+    background: black;
+    padding: 1.2em 1.2em 4em 1.2em;
+
+}
+
+.friendsImg{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+ }
+
+ .friendsWrapper .content{
+     color: white;
+ }
+
+.content .title{
+    font-size: 2rem;
+    
+}
+
+.content .desc{
+    font-size: 1.1rem;
+}
+
+ 
+/* section 3*/
+
+section.sec3{
+    padding: 0em 1.2em 4em 1.2em;
+    width: 100%;
+
+}
+
+
+
+.boatParallax img{
+   width: 100%;
+   position: absolute;
+   object-fit: cover;
+   height: auto;
+   
+}
+
+.Boatcontent{
+    padding: 1.2em;
+    padding-top: 30em;
+    color: black;
+    z-index: 10;
+}
+
+.Boatcontent .title{
+    font-size: 2rem;
+}
+
+.Boatcontent .desc{
+    font-size: 1.1rem;
+}
+
+
+
+@media only screen and (min-width: 400px) {
+
+    .Boatcontent{
+        padding: 1.2em;
+        padding-top: 34em;
+        color: black;
+        z-index: 10;
+    }
+
+    .friendsImg{
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+     }
+
+
+  }
+
+
+  @media only screen and (min-width: 470px) {
+
+    .Boatcontent{
+        padding: 1.2em;
+        padding-top: 38em;
+        color: black;
+        z-index: 10;
+    }
+   
+  }
+
+  @media only screen and (min-width: 510px) {
+
+    .Boatcontent{
+        padding: 1.2em;
+        padding-top: 42em;
+        color: black;
+        z-index: 10;
+    }
+   
+  }
+
+
+  @media only screen and (min-width: 570px) {
+
+    .Boatcontent{
+        padding: 1.2em;
+        padding-top: 44em;
+        color: black;
+        z-index: 10;
+    }
+
+    .LTL{
+        width: 100%;
+        font-size: 3.8rem;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        color: white;
+    }
+   
+  }
+
+
+  
+  @media only screen and (min-width: 600px) {
+
+    .Boatcontent{
+        padding: 1.2em;
+        padding-top: 48em;
+        color: black;
+        z-index: 10;
+    }
+
+    .friendsImg{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+     }
+   
+  }
+
+
+  @media only screen and (min-width: 672px) {
+
+    .Boatcontent{
+        padding: 5em;
+        padding-top: 52em;
+        color: black;
+        z-index: 10;
+    }
+
+    .friendsWrapper{
+        padding: 5em;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 672px) {
+
+    .Boatcontent{
+        padding: 5em;
+        padding-top: 58em;
+        color: black;
+        z-index: 10;
+    }
+  }
+
+
+  @media only screen and (min-width: 800px) {
+
+    .Boatcontent{
+        padding: 5em;
+        padding-top: 65em;
+        color: black;
+        z-index: 10;
+    }
+
+    .content .title{
+        font-size: 2.5rem;
+    }
+    
+    .content .desc{
+        font-size: 1.7rem;
+    }
+
+    .Boatcontent .title{
+        font-size: 2.5rem;
+    }
+    
+    .Boatcontent .desc{
+        font-size: 1.7rem;
+    }
+
+    .LTL{
+        width: 100%;
+        font-size: 5rem;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        color: white;
+    }
+    
+  }
+
+
+/* Desktop Media queries*/
+
+@media only screen and (min-width: 900px) {
+    section.PC{
+        display: block;
+    }
+
+    section.mobile{
+        display: none;
+    }
+
+    .LTL{
+        width: 100%;
+        font-size: 5rem;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        color: white;
+    }
+
+  
+
+    .friendsWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+        padding: 5em 0;
+    }
+
+    
+    .friendsImg{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+     }
+     
+ 
+    
+
+     .content .title{
+        line-height: 1.2em;
+        font-size: 3rem;
+    }
+    
+    .content .desc{
+        font-size: 1.1rem;
+    } 
+
+  
+}
+
+@media only screen and (min-width: 900px) {
+    .friendsWrapper{
+        margin: 0 auto;
+    }
+
+    .content{
+        position: relative;
+        top: 15%;
+
+    }
+
+    .content .title{
+        line-height: 1.2em;
+        font-size: 3rem;
+    }
+    
+    .content .desc{
+        font-size: 1.1rem;
+    } 
+    .BoatWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3em;
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+    .Boatcontent{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .Boatcontent .title{
+        line-height: 1.2em;
+        font-size: 3rem;
+    }
+    
+    .Boatcontent .desc{
+        font-size: 1.1rem;    
+    }
+
+
+    .boatParallax img{
+        width: 50%;
+        position: absolute;
+ 
+        right: 0;
+        object-fit: cover;
+        height: auto;
+        
+     }
+     
+
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+    .content{
+        position: relative;
+        top: 25%;
+
+    }
+
+    .Boatcontent{
+        position: relative;
+        top: 25%;
+
+    }
+
+    .content .title{
+        line-height: 1.2em;
+        font-size: 4rem;
+    }
+    
+    .content .desc{
+        font-size: 1.1rem;
+    } 
+
+
+    .Boatcontent .title{
+        line-height: 1.2em;
+        font-size: 4rem;
+    }
+    
+    .Boatcontent .desc{
+        font-size: 1.1rem;    
+    }
+
+    .friendsWrapper{
+        max-width: 1200px;
+    }
+    .BoatWrapper{
+        max-width: 1200px;
+    }
+
+  
+
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+
+    .Boatcontent{
+        position: relative;
+        top: 35%;
+
+    }
+}
